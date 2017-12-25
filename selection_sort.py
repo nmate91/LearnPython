@@ -8,4 +8,5 @@ def selection_sort(numbers):
         numbers.insert(0, largest)
     return numbers
 
-print(selection_sort([2, 6, 1, 3, 11, 7, 4]))
+if __name__ == "__main__":
+    print(selection_sort([2, 6, 1, 3, 11, 7, 4]))

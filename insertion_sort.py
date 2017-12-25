@@ -8,4 +8,5 @@ def insertion_sort(numbers):
         numbers[j + 1] = key
     return numbers
 
-print(insertion_sort([2, 6, 1, 3, 11, 7, 4]))
+if __name__ == "__main__":
+    print(insertion_sort([2, 6, 1, 3, 11, 7, 4]))
